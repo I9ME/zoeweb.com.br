@@ -1,0 +1,6 @@
+/* global Skeleton */
+(function( $ ) {
+
+
+
+})( jQuery );

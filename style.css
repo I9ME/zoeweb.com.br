@@ -1,0 +1,579 @@
+/*
+Theme Name: SKELETON
+Theme URI:  http://www.i9me.com.br
+Author: I9ME WEB & DESIGN
+Description: Tema esqueleto para construção de projetos
+Author URI: http://www.i9me.com.br
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Alignments
+3.0 Sections
+4.0 Typography
+5.0 Forms
+6.0 Blocks
+6.1 Columns
+6.2 Rows
+6.3 Grids
+7.0 Lists
+8.0 Links
+9.0 Figures, Images and icons
+10.0 navigation
+11.0 Layout
+   11.1 Header
+   11.2 Front Page
+   11.3 Regular Content
+   11.4 Posts
+   11.5 Pages
+   11.6 Footer
+11.0 Plugins
+12.0 Animates
+13.0 Media Queries
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Normalize
+--------------------------------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	vertical-align: baseline;
+}
+
+html {
+	
+}
+
+body {
+
+	
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+2.0 *Alignments
+--------------------------------------------------------------*/
+
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.inline-block{
+	display: inline-block;
+}
+.inline-table{
+	display: inline-table;
+}
+
+/*--------------------------------------------------------------
+3.0 Sections
+--------------------------------------------------------------*/
+
+/*Sections*/
+
+.section{
+	background: #FFF;
+}
+
+
+/*--------------------------------------------------------------
+4.0 Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea{
+	color: #333;
+	font-family: "Rajdhani", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	font-weight: 400;
+}
+
+p{
+	line-height: 120%;
+}
+a{
+	color: #0154A7;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+strong{
+	font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------
+5.0 Forms
+--------------------------------------------------------------*/
+input[type=text],
+input[type=tel],
+input[type=email]{
+	position: relative;
+	display: block;
+	background: #FFF;
+	height: 55px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #535353;
+	text-indent: 4px;
+	border:none;
+}
+
+textarea{
+	position: relative;
+	display: block;
+	background: #FFF;
+	min-height: 110px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #535353;
+	padding-left: 4px;
+}
+
+input[type=submit],
+button{
+	position: relative;
+	display: block;
+	background: #FFF;
+	height: 55px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border:none;
+}
+
+
+
+/*--------------------------------------------------------------
+6.0 Sizes and Spacings
+--------------------------------------------------------------*/
+
+
+.right-margin {
+    margin-right: 5%;
+}
+
+.right-margin--col-inter {
+    margin-right: 10%;
+}
+
+.right-padding {
+    padding-right: 5%;
+}
+
+.right-padding--col-inter {
+    padding-right: 10%;
+}
+
+
+.left-margin {
+    margin-left: 5%;
+}
+
+.left-margin--col-inter {
+    margin-left: 10%;
+}
+
+.left-padding {
+    padding-left: 5%;
+}
+
+.left-padding--col-inter {
+    padding-left: 10%;
+}
+
+/*=====
+Espaçamentos
+=====*/
+
+/*Horizontais*/
+.padding-horizontal{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.padding-bottom{
+    padding-bottom: 30px;
+}
+.padding-top{
+    padding-top: 30px;
+}
+
+/*Verticais*/
+.padding-vertical{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.padding-left{
+    padding-left: 5%;
+}
+.padding-right{
+    padding-right: 5%;
+}
+
+
+/*Verticais Internos*/
+.padding-vertical--inter{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-left--inter{
+    padding-left: 15px;
+}
+.padding-right--inter{
+    padding-right: 15px;
+}
+
+
+/*--------------------------------------------------------------
+6.1 Collumns
+--------------------------------------------------------------*/
+
+/*2 collumns*/
+.colls,
+.coll{
+	
+	position: relative;
+}
+
+.colls-2{
+	display: block;
+}
+
+.colls-2 .coll{
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 15px;
+	display: block;
+}
+
+
+.colls-2 .coll.left{
+	
+}
+
+.colls-2 .coll.right{
+	
+}
+
+
+
+/*3 collumns*/
+.colls-3 .coll{
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+/*4 collumns*/
+.colls.colls-4 .coll{
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+
+
+.colls-layout.colls-3 .sidebar,
+.colls-layout.colls-3 .main{
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+.colls-layout.colls-3 .sidebar{
+	display: block;
+}
+
+
+
+/*--------------------------------------------------------------
+6.2 Rows
+--------------------------------------------------------------*/
+.row{
+	position: relative;
+	display: block;
+}
+
+/*--------------------------------------------------------------
+6.3 Grids
+-------------------------------------------------------------*/
+.grid{
+	position: relative;
+	display: table;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+/*4 collumns*/
+.grid.colls-4 .unit{
+	position: relative;
+	display: block;
+	width: calc(50% - 7.5px);
+	margin-bottom: 15px;
+	float: left;
+}
+.grid.colls-4 .unit:nth-child(2n){
+	margin-left: 15px;
+}
+.grid.colls-4 .unit:last-child,
+.grid.colls-4 .unit:nth-last-of-type(2){
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+7.0 Lists
+--------------------------------------------------------------*/
+
+ul{
+	list-style:none;
+}
+
+ul,li{
+	margin:0;
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+8.0 Links
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+9.0 Figures, Images and icons
+--------------------------------------------------------------*/
+
+.value.iconBefore:before {
+	position: absolute;
+	display: block;
+	content: "";
+	z-index: 1;
+	top: 50%;
+    left: 0;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+a.img {
+    position: relative;
+    line-height: 0;
+}
+
+
+
+/*--------------------------------------------------------------
+10.0 Navigation
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+11.0 Layout
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+11.1 Header
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+11.2 Front Page
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+11.3 Regular Content
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+11.4 Posts
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+11.5 Pages
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+11.6 Footer
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+12.0 Plugins
+--------------------------------------------------------------*/
+
+/*OWL CAROUSEL*/
+			
+
+
+/*--------------------------------------------------------------
+13.0 Animates
+--------------------------------------------------------------*/
+
+.animate{
+	transition: all 0.3s; 
+}
+
+
+
+/*--------------------------------------------------------------
+12.0 Media Queries
+--------------------------------------------------------------*/
+
+/* Adjust positioning of edit shortcuts, override style in customize-preview.css */
+
+
+
+
+@media screen and (min-width: 20em) { /*OFF - mini SmartPhones*/
+
+
+
+	
+}
+
+@media screen and (min-width: 30em) { /*OFF - SmartPhones*/
+
+
+}
+
+@media screen and (min-width: 48em) { /* OFF - Tablet*/
+
+
+
+}
+
+@media screen and ( min-width: 30em ) and ( max-width: 48em ) { /* Mobile (SmartPhone to Tablet )*/
+
+
+
+}
+
+@media screen and ( max-width: 48em ){ /* ON - TABLET*/
+
+
+
+}
+
+
+@media screen and ( min-width: 48em ) and ( max-width: 67em ){  /* Tablet to small Desktop )*/
+
+
+
+/*=====
+Espaçamentos
+=====*/
+
+/*Horizontais*/
+.padding-horizontal{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.padding-bottom{
+    padding-bottom: 60px;
+}
+.padding-top{
+    padding-top: 60px;
+}
+
+
+/*Verticais*/
+.padding-vertical{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.padding-left{
+    padding-left: 5%;
+}
+.padding-right{
+    padding-right: 5%;
+}
+
+/*Verticais Internos*/
+.padding-vertical--inter{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.padding-left--inter{
+    padding-left: 30px;
+}
+.padding-right--inter{
+    padding-right: 30px;
+}
+
+
+}
+
+@media screen and ( min-width: 67em ) { /* OFF -  small Desktop )*/
+
+	
+/*=====
+Espaçamentos PC
+=====*/
+
+/*Horizontais*/
+.padding-horizontal{
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+.padding-bottom{
+    padding-bottom: 90px !important;
+}
+.padding-top{
+    padding-top: 90px !important;
+}
+
+
+/*Verticais*/
+.padding-vertical{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.padding-left{
+    padding-left: 5% !important;
+}
+.padding-right{
+    padding-right: 5% !important;
+}
+
+/*Verticais Internos*/
+.padding-vertical--inter{
+    padding-left: 45px !important;
+    padding-right: 45px !important;
+}
+.padding-left--inter{
+    padding-left: 45px !important;
+}
+.padding-right--inter{
+    padding-right: 45px !important;
+}
+
+
+}
